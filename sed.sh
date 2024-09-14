@@ -12,6 +12,6 @@ for word in "${WORDS[@]}"; do
   echo "$word" | sed -E "{
     s/([$V][$C])([$C]+)/\1-\2/g
     t
-    s/([$V])(.*)/\1-\2/g
+    s/([$V])(.)/\1-\2/g
   }"
 done
