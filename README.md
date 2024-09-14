@@ -9,10 +9,13 @@
 - a textfile already stripped of non-alpha chars & "lowercased"
 
 
-## USAGE
+## SETUP
 
 
 `chmod u+x sed.sh`
+
+
+## USAGE
 
 
 `./sed.sh text.txt`
