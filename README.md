@@ -12,10 +12,10 @@
 ## SETUP
 
 
-`chmod u+x sed.sh`
+`chmod u+x syllabify.sh`
 
 
 ## USAGE
 
 
-`./sed.sh text.txt`
+`./syllabify.sh text.txt`
