@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# args
+[[ -z "$1" ]] &&\
+  { echo 'please provide plaintext file as $1 positional arg'; exit 0; }
+
 # charsets
 declare -r V='aeiouy'  # vowels
 declare -r C='^aeiouy' # consonants
